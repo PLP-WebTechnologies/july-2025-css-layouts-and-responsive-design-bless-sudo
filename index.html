@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive Flexbox & Grid Layout</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>My Responsive Website</h1>
+    </header>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main class="main-content">
+      <section class="content">
+        <h2>Welcome to our site</h2>
+        <p>
+          This area uses CSS Grid to align the main content and sidebar.
+          Cards below use Flexbox to arrange nicely.
+        </p>
+        <div class="card-container">
+          <article class="card">
+            <h3>Card 1</h3>
+            <p>This is some example content inside the first card.</p>
+          </article>
+          <article class="card">
+            <h3>Card 2</h3>
+            <p>This card adjusts its spacing using Flexbox.</p>
+          </article>
+          <article class="card">
+            <h3>Card 3</h3>
+            <p>Responsive cards look great on any device!</p>
+          </article>
+        </div>
+      </section>
+
+      <aside class="sidebar">
+        <h3>Sidebar</h3>
+        <p>
+          Additional links or info can go here. The sidebar sits beside the main
+          content on larger screens, but below content on smaller screens.
+        </p>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2025 Responsive Design Assignment. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
